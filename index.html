@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SolByUs Technologies | 45 Days Internship Program (With AI)</title>
+    <meta
+      name="description"
+      content="SolByUs Technologies offers a 45 Days Internship Program with AI, practical learning, expert guidance, and real-time projects."
+    />
+    <meta
+      name="keywords"
+      content="SolByUs Technologies, internship, AI, coding, web development, data analyst, Yamunanagar"
+    />
+    <meta name="author" content="SolByUs Technologies" />
+    <link rel="icon" type="image/svg+xml" href="./assets/solbyus-logo.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="loader" aria-hidden="true">
+      <div class="loader-ring"></div>
+      <p>Loading SolByUs Experience...</p>
+    </div>
+
+    <div class="bg-canvas-wrap" aria-hidden="true">
+      <canvas id="particleCanvas"></canvas>
+    </div>
+    <div class="bg-grid" aria-hidden="true"></div>
+
+    <header class="site-header" id="top">
+      <nav class="navbar container">
+        <a href="#top" class="brand">
+          <img class="brand-logo" src="assets/solbyus-logo.svg" alt="SolByUs Technologies logo" />
+          <span>SolByUs Technologies</span>
+        </a>
+        <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#internship">Internship</a></li>
+          <li><a href="#why-us">Why Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section container" id="hero">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Future-Ready Tech Education</p>
+          <h1>45 Days Internship Program (With AI)</h1>
+          <p class="subtitle">Solutions by Us, Success for You</p>
+          <p class="typing-line">
+            <span id="typingText"></span><span class="cursor">|</span>
+          </p>
+          <a href="#contact" class="btn btn-glow">Join Now</a>
+        </div>
+        <div class="hero-visual reveal">
+          <img
+            src="https://images.unsplash.com/photo-1518773553398-650c184e0bb3?auto=format&fit=crop&w=1200&q=80"
+            alt="Developer working on a laptop with futuristic interface"
+            loading="lazy"
+          />
+        </div>
+      </section>
+
+      <section class="section container" id="about">
+        <div class="section-head reveal">
+          <h2>About SolByUs</h2>
+          <p>
+            SolByUs Technologies is focused on practical learning, mentorship,
+            and real-world project execution so students become job-ready with
+            confidence.
+          </p>
+        </div>
+        <div class="about-grid">
+          <article class="glass-card reveal">
+            <h3>Our Mission</h3>
+            <p>
+              Bridge classroom theory with industry skills through guided
+              practice, AI-powered workflows, and modern development standards.
+            </p>
+          </article>
+          <div class="counter-grid">
+            <article class="counter-card reveal">
+              <h3>👥 Growing Community</h3>
+              <p>Building a strong network of future tech professionals.</p>
+            </article>
+            <article class="counter-card reveal">
+              <h3>💻 Real-World Projects</h3>
+               <p>Hands-on experience with practical industry-based projects.</p>
+            </article>
+            <article class="counter-card reveal">
+              <h3>🤖 AI-Powered Learning</h3>
+               <p>Learn modern development with AI tools and workflows.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="courses">
+        <div class="section-head reveal">
+          <h2>Courses</h2>
+          <p>Career-focused modules with hands-on assignments and live support.</p>
+        </div>
+        <div class="card-grid">
+          <article class="course-card reveal">
+            <div class="icon">💻</div>
+            <h3>C / C++</h3>
+            <p>Master fundamentals, DSA basics, and performance-oriented coding.</p>
+          </article>
+          <article class="course-card reveal">
+            <div class="icon">🤖</div>
+            <h3>Python (with AI)</h3>
+            <p>Python core, automation, and AI-powered workflows for modern jobs.</p>
+          </article>
+          <article class="course-card reveal">
+            <div class="icon">☕</div>
+            <h3>Java</h3>
+            <p>Build OOP-first apps with practical backend and API development.</p>
+          </article>
+          <article class="course-card reveal">
+            <div class="icon">🌐</div>
+            <h3>Website Development</h3>
+            <p>Design responsive websites with modern frontend stacks and UX.</p>
+          </article>
+          <article class="course-card reveal">
+            <div class="icon">📊</div>
+            <h3>Data Analyst (with AI)</h3>
+            <p>Analyze datasets, visualize trends, and use AI for rapid insights.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container" id="internship">
+        <div class="section-head reveal">
+          <h2>45 Days Internship Program</h2>
+        </div>
+        <div class="internship-grid">
+          <article class="glass-card reveal">
+            <ul class="tick-list">
+              <li>Practical Learning</li>
+              <li>Expert Guidance</li>
+              <li>Real-time Projects</li>
+              <li>Skill Development</li>
+            </ul>
+          </article>
+          <div class="timeline reveal">
+            <div class="timeline-item"><span>Week 1</span><p>Foundations & tools setup</p></div>
+            <div class="timeline-item"><span>Week 2</span><p>Core coding modules</p></div>
+            <div class="timeline-item"><span>Week 3</span><p>AI-enhanced development</p></div>
+            <div class="timeline-item"><span>Week 4</span><p>Project architecture</p></div>
+            <div class="timeline-item"><span>Week 5</span><p>Real-time implementation</p></div>
+            <div class="timeline-item"><span>Week 6</span><p>Deployment, review & career prep</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="why-us">
+        <div class="section-head reveal">
+          <h2>Why Choose Us</h2>
+        </div>
+        <div class="card-grid three-col">
+          <article class="feature-card reveal">
+            <div class="icon">🧠</div>
+            <h3>Industry-Ready Learning</h3>
+            <p>Train with tools and workflows used by real teams.</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="icon">🚀</div>
+            <h3>Mentor-Led Growth</h3>
+            <p>Get structured guidance and feedback at each stage.</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="icon">🛠️</div>
+            <h3>Portfolio Projects</h3>
+            <p>Create practical work samples that stand out to recruiters.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container" id="mode">
+        <div class="section-head reveal">
+          <h2>Learning Mode</h2>
+        </div>
+        <div class="mode-grid">
+          <article class="mode-card reveal">
+            <div class="icon">🌍</div>
+            <h3>Online</h3>
+            <p>Attend from anywhere with live interactive sessions.</p>
+          </article>
+          <article class="mode-card reveal">
+            <div class="icon">🏫</div>
+            <h3>Hybrid</h3>
+            <p>Blend online flexibility with offline mentorship touchpoints.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container" id="certificate">
+        <div class="section-head reveal">
+          <h2>Certificate</h2>
+        </div>
+        <div class="certificate-wrap reveal">
+          <img
+            src="https://images.unsplash.com/photo-1606326608690-4e0281b1e588?auto=format&fit=crop&w=1200&q=80"
+            alt="Internship certificate preview"
+            loading="lazy"
+          />
+          <p>Internship Certificate Provided</p>
+        </div>
+      </section>
+
+      <section class="section container" id="contact">
+        <div class="section-head reveal">
+          <h2>Contact Us</h2>
+        </div>
+        <div class="contact-grid">
+          <article class="glass-card reveal contact-info">
+            <p><strong>Phone:</strong> <a href="tel:8168673757">8168673757</a></p>
+            <p>
+              <strong>Email:</strong>
+              <a href="mailto:solbyustechnologies@gmail.com">solbyustechnologies@gmail.com</a>
+            </p>
+            <p><strong>Location:</strong> Yamunanagar</p>
+            <iframe
+              title="Yamunanagar Location"
+              loading="lazy"
+              allowfullscreen
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=Yamunanagar&output=embed"
+            ></iframe>
+          </article>
+          <form class="glass-card reveal contact-form" id="contactForm" novalidate>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your full name" required />
+            <small class="error" id="nameError"></small>
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required />
+            <small class="error" id="emailError"></small>
+
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Tell us what you want to learn"
+              required
+            ></textarea>
+            <small class="error" id="messageError"></small>
+
+            <button type="submit" class="btn btn-glow">Send Message</button>
+            <p class="form-status" id="formStatus"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <a href="#top" class="brand">
+            <img class="brand-logo" src="assets/solbyus-logo.svg" alt="SolByUs Technologies logo" />
+            <span>SolByUs Technologies</span>
+          </a>
+          <p>Solutions by Us, Success for You</p>
+        </div>
+        <div class="quick-links">
+          <a href="#about">About</a>
+          <a href="#courses">Courses</a>
+          <a href="#internship">Internship</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="socials">
+          <a href="https://www.facebook.com/profile.php?id=61566152146393" aria-label="Facebook" target="_blank">f</a>
+          <a href="https://www.instagram.com/solbyustechnologies" aria-label="Instagram" target="_blank"> <i class="ri-instagram-line"></i> </a>
+          <a href="https://www.linkedin.com/company/solbyustechnologies" aria-label="LinkedIn" target="_blank">in</a>
+          <a href="https://x.com/solbyustech" target="_blank"> <i class="ri-twitter-x-line"></i></a>
+        </div>
+      </div>
+      <p class="copyright">© 2026 SolByUs Technologies. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

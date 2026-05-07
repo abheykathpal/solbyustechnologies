@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">SolByUs Technologies logo</title>
+  <desc id="desc">A blue SolByUs Technologies logo on a dark background.</desc>
+  <defs>
+    <linearGradient id="sGradient" x1="120" y1="120" x2="480" y2="470" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#16f1ff"/>
+      <stop offset="0.46" stop-color="#0086ff"/>
+      <stop offset="1" stop-color="#082cc8"/>
+    </linearGradient>
+    <linearGradient id="pixelGradient" x1="360" y1="90" x2="500" y2="230" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#18f2ff"/>
+      <stop offset="1" stop-color="#0a48e8"/>
+    </linearGradient>
+    <filter id="glow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.02 0 0 0 0 0.65 0 0 0 0 1 0 0 0 0.8 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="600" height="600" rx="42" fill="#020818"/>
+  <g filter="url(#glow)">
+    <path
+      d="M411 156H278c-55 0-99 44-99 99s44 99 99 99h39c-26-24-66-20-91-48-17-19-24-52-9-77 12-20 35-30 61-30h128v52h-86c-30 0-45 14-45 34 0 20 15 34 45 34h39c55 0 99 44 99 99s-44 99-99 99H173l36-67h150c30 0 45-14 45-34 0-20-15-34-45-34h-66c-55 0-99-44-99-99 0-69 51-127 119-127h98z"
+      fill="url(#sGradient)"
+    />
+    <path
+      d="M190 254c0-55 44-99 99-99h122v52H289c-26 0-49 11-61 30-15 25-8 58 9 77 22 24 55 25 80 40h-39c-55 0-88-45-88-100z"
+      fill="#16e8ff"
+      opacity="0.64"
+    />
+    <path
+      d="M459 168h36v36h-36zM421 143h24v24h-24zM501 129h26v26h-26zM519 178h28v28h-28zM482 219h30v30h-30zM406 224h35v35h-35z"
+      fill="url(#pixelGradient)"
+    />
+  </g>
+  <text x="300" y="408" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="800" fill="#f8fbff" letter-spacing="2">
+    Sol<tspan fill="#009bff">By</tspan>Us
+  </text>
+  <text x="300" y="462" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="23" fill="#f8fbff" letter-spacing="15">
+    TECHNOLOGIES
+  </text>
+  <text x="300" y="510" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#f8fbff" letter-spacing="6">
+    SOLUTIONS BY US, <tspan fill="#18e5ff">SUCCESS FOR YOU.</tspan>
+  </text>
+</svg>
